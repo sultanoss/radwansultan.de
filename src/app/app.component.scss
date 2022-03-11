@@ -1,0 +1,27 @@
+.img-slidshow{
+
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    max-width: 100%;
+    animation: zoomIn 8s ease-in ;
+}
+
+@keyframes zoomIn{
+
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.2);
+    }
+}
+
+.slidshow-container{
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+}
