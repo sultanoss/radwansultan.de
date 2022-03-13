@@ -1,9 +1,11 @@
 <header>
-    <span>Mein Logo</span>
+    <span [class.darkLinks]="darkMode">Mein Logo</span>
+
     <div class="menu">
-        <a href="">Home</a>
-        <a href="">Lebenslauf</a>
-        <a href="">Projekte</a>
-        <a href="">Impressum</a>
+        <a [class.darkLinks]="darkMode" routerLink="/">Home</a>
+        <a [class.darkLinks]="darkMode" href="">Curriculum</a>
+        <a [class.darkLinks]="darkMode" href="">Projects</a>
+        <a [class.darkLinks]="darkMode" routerLink="/imprint">Imprint</a>
     </div>
+
 </header>
